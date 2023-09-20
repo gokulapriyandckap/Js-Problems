@@ -389,3 +389,35 @@
 //        return 'Player 2 won!';
 //   };
 //   console.log(rps("scissors","scissors"))
+
+
+//For a range of 0 -500 numbers, find all th enumbres that satisfy both the belowconditions
+// 1) The numbers shoud have duplicate digits.
+// 2) The sum of the digits shud be less than or equal to 5.
+// eg) 22 the number has repeating 2's and the sum of digits -> 2+2 =4
+//     131 this number has repeating 1's and the sum of digit -> 1+3+1 = 5 is equal to 5.
+
+// let arr=[];
+
+//  for (let i = 10; i < 500; i++) {
+  
+//    arr.push(i.toString())  
+    
+// }
+// console.log(arr)
+
+
+
+ let numbers = [];
+function doMath(s){
+  for(let i=0;i<s.length;i++){
+if (s[i]==0 || s[i]==1 || s[i]==2 || s[i]==3 || s[i]==4 || s[i]==5 || s[i]==6 || s[i]==7 || s[i]==8 ||s[i]==9) {
+  numbers.push(s[i])
+}
+}
+console.log(numbers)
+}
+doMath("24z6 1x23 y369 89a 900b")
+
+
+
